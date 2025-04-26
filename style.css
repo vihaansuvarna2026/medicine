@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/medicine.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#chatbox {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.bot-message, .user-message {
+  margin: 5px 0;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+}
+
+button {
+  width: 25%;
+  padding: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
